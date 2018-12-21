@@ -1,0 +1,242 @@
+body {
+	margin: 0;
+}
+.clear:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.container {
+	margin: 0 auto;
+	padding: 0 20px;
+	max-width: 900px;
+}
+.bg1 {
+	background: url(../img/bglogo.jpg) repeat-x;
+}
+.headertop img {
+	width: 265px;
+	height: 66px;
+	display: block;
+}
+.headerbot {
+	background: #000;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}
+.wrappermenu {
+	padding-left: 275px;
+}
+.wrapper {
+	background: #fff;
+}
+.bg2 {
+	background: url(../img/bgfooter.jpg) repeat-x
+}
+
+
+.nav {
+	background: #000;
+}
+.menu {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.menu > li {
+	float: left;
+	margin: 0;
+	position: relative;
+}
+.menu a {
+	font: bold 11px/30px Trebuchet MS, Arial, Helvetica sans-serif;
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	margin: 0;
+	padding: 0 8px;
+}
+.menu > li > a:hover {
+	background: #fff;
+	color: #000;
+}
+.menu  li:hover .drop {
+	display: block;
+}
+
+
+.menu .drop {
+	padding: 4px 0;
+	z-index: 10;
+	position: absolute;
+	left: 0;
+	top: 103%;
+	list-style: none;
+	display: none;
+	background: #928564;
+}
+.menu .drop li {
+	margin: 0;
+}
+.menu .drop a {
+	padding: 6px 15px 5px;
+	font: bold 12px/11px Trebuchet MS, Arial, Helvetica sans-serif;
+	display: block;
+	color: #fff;
+	width: 143px;
+}
+.menu .drop > li > a:hover {
+	background: #000;
+}
+
+
+
+.sidebar {
+	float: left;
+	padding: 52px 35px 70px 40px;
+	width: 190px;
+}
+.navright {
+	padding: 0;
+	margin: 0 0 33px;
+	list-style: none;
+	border: solid 2px #e3e3e3;
+	padding: 3px 3px 4px;
+	border-radius: 4px;
+}
+.navright li:not(:last-child) {
+	padding-bottom: 4px;
+}
+.navright a {
+	font: bold 16px/30px Trebuchet MS, Arial, Helvetica sans-serif;
+	display: block;
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+	color: #fff;
+	background: #928564;
+	text-align: center;
+	width: 180px;
+}
+.navright a:hover {
+	color: #fff;
+	background: #ed1a2d;
+}
+.logosidebar {
+	padding: 0 20px 0 27px;
+	margin: 0 0 27px;
+}
+.logosidebar a {
+	display: block;
+}
+.logosidebar img {
+	width: 141px;
+	height: 48px;
+	display: block;
+}
+.event {
+	border-top: solid 4px #dfdfdf;
+	border-bottom: solid 4px #dfdfdf;
+	padding: 19px 19px 23px;
+}
+.event strong {
+	display: block;
+	font: 18px/1.2 Trebuchet MS, Arial, Helvetica sans-serif;
+	margin: 0 0 18px;
+}
+.eventlink {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.eventlink li:not(:last-child) {
+	margin: 0 0 14px;
+}
+.eventlink a {
+	font: 13px/1.2 Trebuchet MS, Arial, Helvetica sans-serif;
+	display: block;
+	padding: 0;
+	margin: 0 0 1px;
+	color: #ed1a2d;
+}
+.eventlink em {
+	font: italic 10px/1.2 Trebuchet MS, Arial, Helvetica sans-serif;
+	display: block;
+	padding: 0;
+	margin: 0;
+	color: #525252;
+}
+.content {
+	padding: 19px 16px 26px;
+	overflow: hidden;
+}
+.bigimg {
+	width: 597px;
+	height: 177px;
+	border: solid 12px #dfdfdf;
+	margin: 0 0 27px;
+}
+.maintext {
+	padding: 0 20px 0;
+}
+.maintext h1 {
+	font: 21px/16px Trebuchet MS, Arial, Helvetica sans-serif;
+	color: #ed1a2d;
+	padding: 0;
+	margin: 0 0 7px;
+}
+.textlink {
+	padding: 0;
+	margin: 0 0 20px;
+	list-style: none;
+	font-size: 0;
+	line-height: 0;
+}
+.textlink li {
+	display: inline-block;
+	margin: 0;
+	padding: 0 8px 0 0;
+	position: relative;
+}
+.textlink li:not(:first-child) {
+	padding-left: 3px;	
+}
+.textlink li:not(:last-child):after {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translate(0, -50%);
+	content: "";
+	background: url(../img/linkimg.jpg);
+	width: 5px;
+	height: 5px;
+}
+.textlink a {
+	font: 10px/1.2 Trebuchet MS, Arial, Helvetica sans-serif;
+	text-decoration: none;
+	color: #928564;
+}
+.textlink a:hover {
+	text-decoration: underline;
+}
+.textlink span {
+	font: 10px/1.2 Trebuchet MS, Arial, Helvetica sans-serif;
+	color: #928564;
+}
+.maintext p {
+	font: 12px/14px Trebuchet MS, Arial, Helvetica sans-serif;
+	color: #525252;
+	padding: 0;
+	margin: 0;
+}
+.maintext p:not(:last-child) {
+	margin-bottom:14px;
+}
+.wrapperfooter {
+	padding: 30px 0 25px;
+}
+address {
+	font: 10px/13px Trebuchet MS, Arial, Helvetica sans-serif;
+	color: #fff;
+	text-align: center;
+}
